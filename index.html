@@ -7,7 +7,7 @@
     <title>Welcome to HJtalk!</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -21,6 +21,21 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to HJtalk</h1>
+      <p class="welcome-header__text">
+        If you have a HJtalk Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form class="login-form">
+      <input type="text" placeholder="Email or Phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find HJtalk Account or Password</a>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/76ba1c5f6f.js"
       crossorigin="anonymous"
